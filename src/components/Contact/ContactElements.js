@@ -47,7 +47,7 @@ export const Form = styled.form`
     box-shadow: 0 1px 3px rgba(0, 0, 0, 0.9);
 
     @media screen and (max-width: 400px) {
-        padding: 32px 32px;
+        padding: 15px 15px;
     }
 `
 
@@ -72,11 +72,6 @@ export const FormInput = styled.input`
     border-radius: 10px;
     font-weight: 800;
     font-size: 16px;
-
-    
-    @media screen and (max-width: 400px) {
-        width: 200px;
-    }
 `
 
 export const FormButton = styled.span`

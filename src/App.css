@@ -20,79 +20,6 @@ Landform Logo for NavLogo in Navbar
   cursor: pointer;
 }
 
-@media only screen and (max-width: 768px) {
-  .img-h1 {
-    font-size: 2rem;
-  }
-
-  .slider {
-    height: 50vh;
-  }
-
-  .image {
-    width: 300px;
-    height: 300px;
-  }
-
-  .left-arrow {
-    font-size: 2rem;
-  }
-
-  .right-arrow {
-    font-size: 2rem;
-  }
-
-  .imagewrapper {
-    margin-top: 80px;
-    height: 80vh;
-  }
-
-  .carousel-container {
-    width: 450px;
-  }
-
-  .thumbnails {
-    width: 450px;
-  }
-}
-
-@media only screen and (max-width: 1024px) {
-  .slider {
-    height: 55vh;
-  }
-}
-
-
-@media only screen and (max-width: 480px) {
-  .image {
-    height: 300px;
-    width: 300px;
-  }
-
-  .img-h1 {
-    font-size: 2rem;
-  }
-
-  .left-arrow {
-    top: 97%;
-    font-size: 1.75rem;
-    left: 25%;
-  }
-
-  .right-arrow {
-    top: 97%;
-    font-size: 1.75rem;
-    right: 25%;
-  }
-
-  .carousel-container {
-    width: 350px;
-  }
-
-  .thumbnails {
-    width: 350px;
-  }
-}
 
 .details {
   padding: 50px;
@@ -101,4 +28,15 @@ Landform Logo for NavLogo in Navbar
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+}
+
+@media only screen and (max-width: 480px) {
+  
+  .text-area {
+    width: 80px;
+  }
+
+  .form-control {
+    width: 280px;
+  }
 }

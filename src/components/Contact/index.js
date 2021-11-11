@@ -18,9 +18,6 @@ const Contact = () => {
   }
 
   
-function reset() {
-  document.getElementById("myForm").reset();
-}
 
   return (
     <div>
@@ -39,7 +36,6 @@ function reset() {
               <FormMessage type='textarea' name="message" className="form-control" required />
               <input type='submit'
               onSubmit={sendEmail}
-              onClick={reset}
               className="FormButton" 
               style={{ border: "none", background: "#01bf71", padding: "16px", fontSize: "20px", color: "#fff", cursor: "pointer", borderRadius: "30px" }}/>
             </Form>

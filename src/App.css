@@ -1,38 +1,181 @@
-.App {
-  text-align: center;
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins',
+  sans-serif;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
+/* 
+Landform Logo for NavLogo in Navbar
+<img src={logo1} alt="Landform" class="lf-logo"/> */
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.slider {
+  position: relative;
+  height: 80vh;
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-items: center;
 }
 
-.App-link {
-  color: #61dafb;
+.image {
+  width: 800px;
+  height: 600px;
+  border-radius: 10px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+.imagewrapper {
+  padding: 50px;
+  background: #fff;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 1100px;
+}
+
+.img-h1 {
+  text-align: center;
+  padding: 20px 0;
+  color: #388E3C;
+  font-size: 3.5rem;
+}
+
+.right-arrow {
+  position: absolute;
+  top: 98%;
+  right: 35%;
+  font-size: 3rem;
+  color: #388E3C;
+  z-index: 10;
+  cursor: pointer;
+  user-select: none;
+}
+
+
+.left-arrow {
+  position: absolute;
+  top: 98%;
+  left: 35%;
+  font-size: 3rem;
+  color: #388E3C;
+  z-index: 10;
+  cursor: pointer;
+  user-select: none;
+}
+
+.left-arrow:hover {
+  color: #01bf71;
+  transition: 0.2s ease-in-out;
+  transform: scale(1.25);
+  cursor: pointer;
+} 
+
+.right-arrow:hover {
+  color: #01bf71;
+  transition: 0.2s ease-in-out;
+  transform: scale(1.25);
+  cursor: pointer;
+} 
+
+.slide {
+  opacity: 0;
+  transition-duration: 1s ease;
+}
+
+.slide.active {
+  opacity: 1;
+  transition-duration: 1s;
+  transform: scale(1.08);
+}
+
+.FormButton:hover {
+  transition: 0.1s ease-in-out;
+  transform: scale(1.01);
+  cursor: pointer;
+}
+
+@media only screen and (max-width: 768px) {
+  .img-h1 {
+    font-size: 2rem;
   }
-  to {
-    transform: rotate(360deg);
+
+  .slider {
+    height: 50vh;
   }
+
+  .image {
+    width: 300px;
+    height: 300px;
+  }
+
+  .left-arrow {
+    font-size: 2rem;
+  }
+
+  .right-arrow {
+    font-size: 2rem;
+  }
+
+  .imagewrapper {
+    margin-top: 80px;
+    height: 80vh;
+  }
+
+  .carousel-container {
+    width: 450px;
+  }
+
+  .thumbnails {
+    width: 450px;
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  .slider {
+    height: 55vh;
+  }
+}
+
+
+@media only screen and (max-width: 480px) {
+  .image {
+    height: 300px;
+    width: 300px;
+  }
+
+  .img-h1 {
+    font-size: 2rem;
+  }
+
+  .left-arrow {
+    top: 97%;
+    font-size: 1.75rem;
+    left: 25%;
+  }
+
+  .right-arrow {
+    top: 97%;
+    font-size: 1.75rem;
+    right: 25%;
+  }
+
+  .carousel-container {
+    width: 350px;
+  }
+
+  .thumbnails {
+    width: 350px;
+  }
+}
+
+.details {
+  padding: 50px;
+  background-image: url(/src/images/detailsbg.svg);
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }

@@ -73,9 +73,10 @@ export const FormInput = styled.input`
     border-radius: 10px;
     font-weight: 800;
     font-size: 16px;
+    max-width: 800px;
 
     @media screen and (max-width: 400px) {
-        max-width: 250px;
+        max-width: 275px;
     }
 `
 

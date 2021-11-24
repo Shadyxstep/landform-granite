@@ -16,7 +16,7 @@ export const ContactContainer = styled.div`
     );
 
     @media screen and (max-width: 480px) {
-        padding: 30px;
+        padding: 20px;
     }
 `
 
@@ -72,6 +72,10 @@ export const FormInput = styled.input`
     border-radius: 10px;
     font-weight: 800;
     font-size: 16px;
+
+    @media screen and (max-width: 400px) {
+        max-width: 250px;
+    }
 `
 
 export const FormButton = styled.span`

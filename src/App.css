@@ -37,6 +37,10 @@ Landform Logo for NavLogo in Navbar
   }
 
   .form-control {
-    width: 280px;
+    width: 300px;
+  }
+
+  .input {
+    width: 50px;
   }
 }

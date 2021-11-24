@@ -29,18 +29,3 @@ Landform Logo for NavLogo in Navbar
   -o-background-size: cover;
   background-size: cover;
 }
-
-@media only screen and (max-width: 480px) {
-  
-  .text-area {
-    width: 80px;
-  }
-
-  .form-control {
-    width: 300px;
-  }
-
-  .input {
-    width: 50px;
-  }
-}

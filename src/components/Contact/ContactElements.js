@@ -76,7 +76,7 @@ export const FormInput = styled.input`
     max-width: 800px;
 
     @media screen and (max-width: 400px) {
-        max-width: 275px;
+        max-width: 200px;
     }
 `
 

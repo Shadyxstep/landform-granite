@@ -17,14 +17,22 @@ const Contact = () => {
     }).catch(err=> console.log(err));
   }
 
-  
+
+function clearForm() {
+    document.getElementById("myForm").reset();
+  }
+
+function Notif() {
+  alert("Your message has been sent!");
+  clearForm();
+}
 
   return (
     <div>
       <ContactContainer id='contact'>
         <ContactWrapper>
           <FormContent>
-            <Form className="form-control" onSubmit={sendEmail} id="myForm">
+            <Form className="form" onSubmit={sendEmail} id="myForm">
               <FormH1>Contact Us </FormH1>
               <FormLabel htmlFor="for">Name</FormLabel>
               <FormInput type='text' name="from_name" className="form-control" required />
@@ -36,7 +44,8 @@ const Contact = () => {
               <FormMessage type='textarea' name="message" className="form-control" required />
               <input type='submit'
               onSubmit={sendEmail}
-              className="FormButton" 
+              className="FormButton"
+              onClick={Notif}
               style={{ border: "none", background: "#01bf71", padding: "16px", fontSize: "20px", color: "#fff", cursor: "pointer", borderRadius: "30px" }}/>
             </Form>
           </FormContent>

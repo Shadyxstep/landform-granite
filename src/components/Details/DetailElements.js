@@ -1,19 +1,11 @@
 import styled from "styled-components";
 
 export const DetailsContainer = styled.div`
-    height: 800px;
+    height: 100%;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-
-    @media screen and (max-width: 768px) {
-        height: 1400px;
-    }
-
-    @media screen and (max-width: 480px) {
-        height: 1000px;
-    }
 `
 
 export const DetailsWrapper = styled.div`
@@ -30,13 +22,18 @@ export const DetailsWrapper = styled.div`
     }
 
     @media screen and (max-width: 768px) {
+        grid-template-columns: 1fr 1fr;
+        padding: 0 20px;
+    }
+
+    @media screen and (max-width: 414px) {
         grid-template-columns: 1fr;
         padding: 0 20px;
     }
 `
 
 export const DetailsCard = styled.div`
-    background: #fff;
+    background: #DAD7CD;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
@@ -81,7 +78,7 @@ export const DetailsIcon = styled.img`
 
 export const DetailsH1 = styled.h1`
     font-size: 2.5rem;
-    color: #fff;
+    color: #C9F2C7;
     margin-bottom: 50px;
     text-align: center;
     justify-content: center;
@@ -93,14 +90,10 @@ export const DetailsH1 = styled.h1`
 
 export const DetailsH2 = styled.h2`
     font-size: 1.75rem;
-    margin-bottom: 10px;
+    color: rgb(40, 54, 24);
 
     @media screen and (max-width: 480px) {
         font-size: 1rem;
     }
 `
 
-export const DetailsP = styled.p`
-    font-size: 1rem;
-    text-align: center;
-`

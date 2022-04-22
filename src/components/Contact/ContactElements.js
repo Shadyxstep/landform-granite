@@ -9,11 +9,12 @@ export const ContactContainer = styled.div`
     top: 0;
     z-index: 0;
     overflow: hidden;
-    background: linear-gradient(
-        108deg,
-        rgba(1, 147, 86, 1) 0%,
-        rgba(10, 201, 122, 1) 100%
-    );
+    background: #388E3C;
+    // linear-gradient(
+    //    108deg,
+    //    rgba(1, 147, 86, 1) 0%,
+    //    rgba(10, 201, 122, 1) 100%
+    //);
 
     @media screen and (max-width: 480px) {
         padding: 20px;
@@ -22,6 +23,8 @@ export const ContactContainer = styled.div`
 
 export const ContactWrapper = styled.div`
     height: 100%;
+    width: 100%;
+    margin: auto;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -29,16 +32,17 @@ export const ContactWrapper = styled.div`
 
 export const FormContent = styled.div`
     height: 100%;
+    max-width: 1200px;
+    margin: auto;
     display: flex;
     flex-direction: column;
     justify-content: center;
 `
 
 export const Form = styled.form`
-    background: #010101;
-    max-width: 800px;
-    height: auto;
-    width: 100%;
+    background: #101522;
+    width: 70vw;
+    height: 100%;
     z-index: 1;
     display: grid;
     margin: 0 auto;
@@ -46,9 +50,13 @@ export const Form = styled.form`
     border-radius: 50px;
     box-shadow: 0 1px 3px rgba(0, 0, 0, 0.9);
 
+    @media screen and (min-width: 1399px){
+        width: 40vw;
+    }
+
     @media screen and (max-width: 400px) {
         padding: 15px 15px;
-        max-width: 275px;
+        width: 70vw;
     }
 `
 
@@ -81,7 +89,7 @@ export const FormInput = styled.input`
 `
 
 export const FormButton = styled.span`
-    background: #01bf71;
+    background: #388E3C; // #01bf71;
     padding: 16px 0;
     border: none;
     color: #fff;

@@ -9,23 +9,13 @@ export const InfoContainer = styled.div`
 export const InfoWrapper = styled.div`
     display: grid;
     z-index: 1;
-    height: 860px;
+    height: 100%;
     width: 100%;
     max-width: 1800px;
     margin-right: auto;
     margin-left: auto;
-    padding: 0 24px;
+    padding: 40px 24px;
     justify-content: center;
-    border-bottom: 5px solid #000;
-
-    @media screen and (max-width: 768px) {
-        border: none;
-        height: 1100px;
-    }
-
-    @media screen and (max-width: 520px) {
-        height: 900px;
-    }
 `
 
 export const InfoRow = styled.div`
@@ -109,7 +99,7 @@ export const Img = styled.img`
     width: 100%;
     margin: 0 0 10px 0;
     padding-right: 0;
-    border-radius: 500%;
+    border-radius: 10%;
 
     @media screen and (max-width: 768px) {
         height: 500px;

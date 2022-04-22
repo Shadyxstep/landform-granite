@@ -34,13 +34,13 @@ function Notif() {
           <FormContent>
             <Form className="form" onSubmit={sendEmail} id="myForm">
               <FormH1>Contact Us </FormH1>
-              <FormLabel htmlFor="for">Name</FormLabel>
+              <FormLabel htmlFor="for">Name:</FormLabel>
               <FormInput type='text' name="from_name" className="form-control" required />
-              <FormLabel htmlFor="for">Subject</FormLabel>
+              <FormLabel htmlFor="for">Subject:</FormLabel>
               <FormInput type='text' name="subject" className="form-control" required />
-              <FormLabel htmlFor="for">Email</FormLabel>
+              <FormLabel htmlFor="for">Email:</FormLabel>
               <FormInput type='email' name="user_email" className="form-control" required />
-              <FormLabel htmlFor="for">Message</FormLabel>
+              <FormLabel htmlFor="for">Message:</FormLabel>
               <FormMessage type='textarea' name="message" className="form-control" required />
               <input type='submit'
               onSubmit={sendEmail}

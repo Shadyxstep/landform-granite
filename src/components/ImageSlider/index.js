@@ -52,7 +52,7 @@ function Gallery() {
   return (
     <GalleryContainer id='gallery'>
     <div className="Gallery">
-      <div style={{ textAlign: "center" }}>
+      <div style={{ textAlign: "center"}}>
         <GalleryHeading>Image Gallery</GalleryHeading>
         <div style={{
           padding: "0 20px"

@@ -41,7 +41,7 @@ export const FormContent = styled.div`
 
 export const Form = styled.form`
     background: #101522;
-    width: 70vw;
+    width: 80vw;
     height: 100%;
     z-index: 1;
     display: grid;
@@ -51,12 +51,12 @@ export const Form = styled.form`
     box-shadow: 0 1px 3px rgba(0, 0, 0, 0.9);
 
     @media screen and (min-width: 1399px){
-        width: 40vw;
+        width: 45vw;
     }
 
     @media screen and (max-width: 400px) {
         padding: 15px 15px;
-        width: 70vw;
+        width: 80vw;
     }
 `
 
@@ -82,10 +82,7 @@ export const FormInput = styled.input`
     font-weight: 800;
     font-size: 16px;
     max-width: 800px;
-
-    @media screen and (max-width: 420px) {
-        width: 200px;
-    }
+    width: 100%;
 `
 
 export const FormButton = styled.span`

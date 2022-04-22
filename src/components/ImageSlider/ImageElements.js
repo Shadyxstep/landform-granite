@@ -5,14 +5,9 @@ export const GalleryContainer = styled.div`
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 0 30px;
-    height: 950px;
+    margin: 0 auto;
+    height: 930px;
     z-index: 1;
-
-    @media screen and (max-width: 480px) {
-        height: 700px;
-        width: 300px;
-    }
 `
 
 export const GalleryHeading = styled.h2`

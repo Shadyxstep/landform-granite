@@ -11,6 +11,7 @@ export const GalleryContainer = styled.div`
 
     @media screen and (max-width: 480px) {
         height: 700px;
+        width: 300px;
     }
 `
 

@@ -26,16 +26,16 @@ const Contact = () => {
   if (submitted) {
     return (
       <>
-      <ThankYouContainer>
-        <ThankYouH1 className="line-1  anim-typewriter">Thank you! <br></br> We'll be in touch soon.</ThankYouH1>
+      <ThankYouContainer id="contact">
+        <ThankYouH1 className="line-1 anim-typewriter">Thank you! <br></br> We'll be in touch soon.</ThankYouH1>
       </ThankYouContainer>
       </>
     );
   }
 
   return (
-    <div>
-      <ContactContainer id="contact">
+    <div id="contact">
+      <ContactContainer>
         <ContactWrapper>
           <FormH1>Contact Us</FormH1>
           <FormContent>
@@ -75,7 +75,7 @@ const Contact = () => {
               </div>
               <div style={{padding: "10px"}}>
                 <button type="submit" className="FormButton"
-                style={{ border: "none", background: "#388E3C", padding: "16px", fontSize: "20px", color: "#fff", cursor: "pointer", borderRadius: "30px" }}> Send a message </button>
+                style={{ border: "none", background: "#388E3C", padding: "16px", fontSize: "20px", color: "#fff", cursor: "pointer", borderRadius: "20px" }}> Send a message </button>
               </div>
             </Form>
           </FormContent>

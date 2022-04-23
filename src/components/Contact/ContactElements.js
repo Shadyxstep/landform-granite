@@ -56,9 +56,9 @@ export const Form = styled.form`
         width: 45vw;
     }
 
-    @media screen and (max-width: 400px) {
-        padding: 15px 15px;
-        width: 80vw;
+    @media screen and (max-width: 414px) {
+        width: 330px;
+        border-radius: 10px;
     }
 `
 
@@ -122,6 +122,10 @@ export const FormMessage = styled.textarea`
 export const ThankYouH1 = styled.h1`
     font-size: 40px;
     color: #fff;
+
+    @media screen and (max-width: 414px) {
+        font-size: 25px;
+    }
 `
 
 export const ThankYouContainer = styled.div`
@@ -135,4 +139,8 @@ export const ThankYouContainer = styled.div`
     overflow: hidden;
     background: #388E3C;
     text-align: center;
+
+    @media screen and (max-width: 414px) {
+        padding:10px;
+    }
 `

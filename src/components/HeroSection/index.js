@@ -1,6 +1,7 @@
 import React, {useState} from 'react';
 import Video from '../../videos/video.mp4';
 import { Button } from '../ButtonElements'
+import { Link } from 'react-router-dom'
 import {
     HeroContainer,
     HeroBg,
@@ -32,6 +33,7 @@ const HeroLanding = () => {
                     <Button to="about" onMouseEnter={onHover} onMouseLeave={onHover}>
                         About us
                     </Button>
+                    <Link to="/thankyou">About</Link>
                 </HeroBtnWrapper>
             </HeroContent>
         </HeroContainer>

@@ -14,7 +14,7 @@ function App() {
     <Router>
       <Switch>
         <Route exact path="/landform-granite/" component={Home}/>
-        <Route path="/landform-granite/thankyou" component={ThankYou}/>
+        <Route path="/thankyou" component={ThankYou}/>
         <Redirect to="/landform-granite/" />
       </Switch>
     </Router>

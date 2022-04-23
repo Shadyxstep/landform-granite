@@ -61,7 +61,7 @@ function Gallery() {
             data={data}
             time={4000}
             width="75vw"
-            height="50vh"
+            height="30em"
             captionStyle={captionStyle}
             radius="10px"
             slideNumber={true}

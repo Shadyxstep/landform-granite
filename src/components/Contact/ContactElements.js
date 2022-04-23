@@ -10,6 +10,7 @@ export const ContactContainer = styled.div`
     z-index: 0;
     overflow: hidden;
     background: #388E3C;
+    text-align: center;
     // linear-gradient(
     //    108deg,
     //    rgba(1, 147, 86, 1) 0%,
@@ -41,12 +42,13 @@ export const FormContent = styled.div`
 
 export const Form = styled.form`
     background: #101522;
-    width: 80vw;
+    width: 600px;
     height: 100%;
     z-index: 1;
     display: grid;
     margin: 0 auto;
     padding: 50px 32px;
+    text-align: center;
     border-radius: 50px;
     box-shadow: 0 1px 3px rgba(0, 0, 0, 0.9);
 
@@ -72,6 +74,7 @@ export const FormLabel = styled.label`
     margin-bottom: 8px;
     font-size: 14px;
     color: #fff;
+    text-align: left;
 `
 
 export const FormInput = styled.input`
@@ -81,11 +84,12 @@ export const FormInput = styled.input`
     border-radius: 10px;
     font-weight: 800;
     font-size: 16px;
+    letter-spacing: 1.5px;
     max-width: 800px;
     width: 100%;
 `
 
-export const FormButton = styled.span`
+export const FormButton = styled.button`
     background: #388E3C; // #01bf71;
     padding: 16px 0;
     border: none;
@@ -106,7 +110,29 @@ export const FormMessage = styled.textarea`
     width: 100%;
     height: 150px;
     margin-bottom: 20px;
-    font-size: 14px;
+    font-weight: 800;
+    font-size: 16px;
+    letter-spacing: 1.5px;
     padding: 5px;
     border-radius: 10px;
+`
+
+// Thank You Styling
+
+export const ThankYouH1 = styled.h1`
+    font-size: 40px;
+    color: #fff;
+`
+
+export const ThankYouContainer = styled.div`
+    height: 300px;
+    padding: 50px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    top: 0;
+    z-index: 0;
+    overflow: hidden;
+    background: #388E3C;
+    text-align: center;
 `

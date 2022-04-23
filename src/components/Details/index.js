@@ -7,16 +7,18 @@ import Paving from '../../images/paving.png'
 import Boulder from '../../images/boulder.png'
 import Feature from '../../images/features.png'
 import Wall from '../../images/wall.png'
-import { DetailsContainer, DetailsH1, DetailsWrapper, DetailsCard, DetailsIcon, DetailsH2 } from './DetailElements'
+import "../Details/styles.css"
+import { DetailsContainer, DetailsH1, DetailsWrapper, DetailsCard, DetailsIcon, DetailsH2} from './DetailElements'
 
 const Details = () => {
+
     return (
         <DetailsContainer id="details" className="details">
             <DetailsH1>Our Granite is suitable for</DetailsH1>
             <DetailsWrapper>
-                <DetailsCard to="about">
-                    <DetailsIcon src={Building}/>
-                    <DetailsH2>Building</DetailsH2>
+                <DetailsCard>
+                        <DetailsIcon src={Building}/>
+                        <DetailsH2>Building</DetailsH2>
                 </DetailsCard>
                 <DetailsCard to='gallery'>
                     <DetailsIcon src={Construction}/>

@@ -33,7 +33,6 @@ const HeroLanding = () => {
                     <Button to="about" onMouseEnter={onHover} onMouseLeave={onHover}>
                         About us
                     </Button>
-                    <Link to="/thankyou">About</Link>
                 </HeroBtnWrapper>
             </HeroContent>
         </HeroContainer>

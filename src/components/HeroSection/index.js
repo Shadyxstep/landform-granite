@@ -1,7 +1,6 @@
 import React, {useState} from 'react';
 import Video from '../../videos/video.mp4';
 import { Button } from '../ButtonElements'
-import { Link } from 'react-router-dom'
 import {
     HeroContainer,
     HeroBg,

@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/landform-granite/static/css/main.adf173bb.chunk.css",
-    "main.js": "/landform-granite/static/js/main.a7b1ea38.chunk.js",
-    "main.js.map": "/landform-granite/static/js/main.a7b1ea38.chunk.js.map",
+    "main.js": "/landform-granite/static/js/main.afdc96e4.chunk.js",
+    "main.js.map": "/landform-granite/static/js/main.afdc96e4.chunk.js.map",
     "runtime-main.js": "/landform-granite/static/js/runtime-main.7d999443.js",
     "runtime-main.js.map": "/landform-granite/static/js/runtime-main.7d999443.js.map",
     "static/css/2.d4115035.chunk.css": "/landform-granite/static/css/2.d4115035.chunk.css",
@@ -29,6 +29,6 @@
     "static/css/2.d4115035.chunk.css",
     "static/js/2.5b346c6b.chunk.js",
     "static/css/main.adf173bb.chunk.css",
-    "static/js/main.a7b1ea38.chunk.js"
+    "static/js/main.afdc96e4.chunk.js"
   ]
 }

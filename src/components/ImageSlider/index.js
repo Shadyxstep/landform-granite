@@ -53,14 +53,14 @@ function Gallery() {
     <GalleryContainer id='gallery'>
     <div className="Gallery">
       <div style={{ textAlign: "center"}}>
-        <GalleryHeading>Image Gallery</GalleryHeading>
+        <GalleryHeading>Gallery</GalleryHeading>
         <div style={{
           padding: "0 20px"
         }}>
           <Carousel
             data={data}
             time={4000}
-            width="80vw"
+            width="90vw"
             height="32em"
             captionStyle={captionStyle}
             radius="10px"
@@ -69,7 +69,7 @@ function Gallery() {
             captionPosition="bottom"
             automatic={true}
             dots={true}
-            pauseIconColor="white"
+            pauseIconColor="black"
             pauseIconSize="40px"
             slideBackgroundColor="darkgrey"
             slideImageFit="cover"
@@ -78,8 +78,8 @@ function Gallery() {
             style={{
               textAlign: "center",
               maxWidth: "850px",
-              maxHeight: "500px",
-              margin: "40px auto",
+              maxHeight: "400px",
+              cursor: "pointer",
             }}
           />
         </div>

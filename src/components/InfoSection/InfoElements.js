@@ -100,12 +100,8 @@ export const Img = styled.img`
     margin: 0 0 10px 0;
     padding-right: 0;
     border-radius: 10%;
+    height: 400px;
 
-    @media screen and (max-width: 768px) {
-        height: 500px;
-        width: 500px;
-        margin: auto;
-    }
 
     @media screen and (max-width: 540px) {
         height: 300px;

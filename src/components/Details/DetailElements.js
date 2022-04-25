@@ -96,4 +96,3 @@ export const DetailsH2 = styled.h2`
         font-size: 1rem;
     }
 `
-

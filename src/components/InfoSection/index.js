@@ -12,11 +12,13 @@ import {
     ImgWrap, 
     Img 
 } from './InfoElements';
+import Slide from 'react-reveal/Fade';
 
 const AboutUs = ({lightBg, id, imgStart, topLine, headline, darkText, description, img, alt}) => {
     return (
         <InfoContainer>
             <InfoWrapper lightBg={lightBg} id={id}>
+                <Slide bottom>
                 <InfoRow imgStart={imgStart}>
                     <Column1>
                     <TextWrapper>
@@ -31,6 +33,7 @@ const AboutUs = ({lightBg, id, imgStart, topLine, headline, darkText, descriptio
                         </ImgWrap>
                     </Column2>
                 </InfoRow>
+                </Slide>
             </InfoWrapper> 
         </InfoContainer>
     )

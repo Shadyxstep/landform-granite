@@ -60,8 +60,8 @@ function Gallery() {
           <Carousel
             data={data}
             time={4000}
-            width="75vw"
-            height="30em"
+            width="80vw"
+            height="32em"
             captionStyle={captionStyle}
             radius="10px"
             slideNumber={true}

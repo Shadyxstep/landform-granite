@@ -57,8 +57,12 @@ export const Form = styled.form`
     }
 
     @media screen and (max-width: 414px) {
-        width: 330px;
+        width: 340px;
         border-radius: 10px;
+    }
+
+    @media screen and (max-width: 320px) {
+        width: 280px;
     }
 `
 

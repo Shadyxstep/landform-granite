@@ -134,6 +134,7 @@ export const WebsiteRights = styled.small`
     color: #fff;
     margin-bottom: 15px;
     font-size: 12px;
+    text-align:center;
 `
 
 export const SocialIcons = styled.div`

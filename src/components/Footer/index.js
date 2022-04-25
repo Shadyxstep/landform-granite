@@ -18,6 +18,7 @@ import {
     } from './FooterElements'
 import { FaFacebook, FaInstagram } from 'react-icons/fa'
 
+
 const Footer = () => {
     return (
         <FooterContainer>
@@ -55,10 +56,10 @@ const Footer = () => {
                         <ContactWrap>
                         Tel:  087 9155536 
                         </ContactWrap>
-                        <ContactWrap>
+                        <ContactWrap onClick={() => window.location = 'mailto:landformgranite@gmail.com'}>
                         E-mail: landformgranite@gmail.com
                         </ContactWrap>
-                        <WebsiteRights>Landform Granite © {new Date().getFullYear()} <br></br> All rights reserved.</WebsiteRights>
+                        <WebsiteRights>Landform Granite © {new Date().getFullYear()}<br></br> All rights reserved.</WebsiteRights>
                     </SocialMediaWrap>
                     <SocialMediaWrapTwo>
                     <SocialIcons>

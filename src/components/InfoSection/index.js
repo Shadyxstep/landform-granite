@@ -10,15 +10,15 @@ import {
     Heading,
     Subtitle,
     ImgWrap, 
-    Img 
+    Img
 } from './InfoElements';
-import Slide from 'react-reveal/Fade';
+import Slide from 'react-reveal/Slide';
 
 const AboutUs = ({lightBg, id, imgStart, topLine, headline, darkText, description, img, alt}) => {
     return (
         <InfoContainer>
+            <Slide left>
             <InfoWrapper lightBg={lightBg} id={id}>
-                <Slide bottom>
                 <InfoRow imgStart={imgStart}>
                     <Column1>
                     <TextWrapper>
@@ -31,11 +31,12 @@ const AboutUs = ({lightBg, id, imgStart, topLine, headline, darkText, descriptio
                         <ImgWrap>
                         <Img src={img} alt={alt}/>
                         </ImgWrap>
-                    </Column2>
+                    </Column2>                        
                 </InfoRow>
-                </Slide>
-            </InfoWrapper> 
+            </InfoWrapper>
+            </Slide>
         </InfoContainer>
+
     )
 }
 

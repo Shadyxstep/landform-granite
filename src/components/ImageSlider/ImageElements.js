@@ -26,8 +26,8 @@ export const GalleryContainer = styled.div`
     }
 
     @media screen and (min-width: 1399px) {
-        height: 950px;
-        margin-top: -200px;
+        height: 1100px;
+        margin-top: -250px;
     }
 
    

@@ -108,4 +108,3 @@ export const NavLinks = styled(LinkScroll)`
         transform: scale(1.10);
     }
 `;
-

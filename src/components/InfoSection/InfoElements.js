@@ -2,8 +2,7 @@ import styled from "styled-components";
 
 
 export const InfoContainer = styled.div`
-    color: #fff;
-    background: ${({lightBg}) => (lightBg ? '#f9f9f9' : '#fff')};
+    //background: ${({lightBg}) => (lightBg ? '#f9f9f9' : '#fff')};
 `
 
 export const InfoWrapper = styled.div`
@@ -16,22 +15,38 @@ export const InfoWrapper = styled.div`
     margin-left: auto;
     padding: 40px 24px;
     justify-content: center;
+
+    @media screen and (max-width: 414px) {
+        margin-top: 20px;
+        margin-bottom: 20px;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    }
 `
 
 export const InfoRow = styled.div`
     display: grid;
+    background: #fff;
+    z-index: 1;
     grid-auto-columns: minmax()(auto, 1fr);
     align-items: center;
     grid-template-areas: ${({imgStart}) => (imgStart ? `'col2 col1'` : `'col1 col2'`)};
 
-    @media screen and (max-width: 768px) {
+    //768px
+    @media screen and (max-width: 912px) {
         grid-template-areas: ${({imgStart}) => (imgStart ? `'col1' 'col2'` : `'col1 col1' 'col2 col2'`)};
+    }
+
+    @media screen and (min-width: 1399px) {
+        width: 70vw;
+        height: 100%;
+        padding: 50px;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        border-radius: 20px;
     }
 `
 
 export const Column1 = styled.div`
     margin-bottom: 15px;
-    padding: 0 15px;
     grid-area: col1;
 `
 
@@ -43,8 +58,7 @@ export const Column2 = styled.div`
 
 export const TextWrapper = styled.div`
     max-width: 540px;
-    padding-top: 0;
-    padding-bottom: 10px;
+    padding: 10px;
 
     @media screen and (max-width: 480px) {
         padding-bottom: 10px;
@@ -79,7 +93,7 @@ export const Heading = styled.h1`
 
 export const Subtitle = styled.p`
     max-width: 440px;
-    margin-bottom: 35px;
+    margin-bottom: 10px;
     font-size: 20px;
     line-height: 32px;
     font-weight: 500;
@@ -99,7 +113,7 @@ export const Img = styled.img`
     width: 100%;
     margin: 0 0 10px 0;
     padding-right: 0;
-    border-radius: 10%;
+    border-radius: 5%;
     height: 400px;
 
 

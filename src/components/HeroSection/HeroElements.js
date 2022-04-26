@@ -26,6 +26,15 @@ export const HeroContainer = styled.div`
 `;
 
 export const HeroBg = styled.div`
+    background-image: 
+    linear-gradient(
+      rgba(0, 0, 0, 0.1),
+      rgba(0, 0, 0, 0.1)
+    ), url('https://i.imgur.com/THPwxz8.jpg');
+    -o-object-fit: cover;
+    object-fit: cover;
+    background-repeat: no-repeat;
+    background-size: cover;
     position: absolute;
     top: 0;
     right: 0;

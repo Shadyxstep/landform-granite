@@ -78,7 +78,7 @@ export const DetailsIcon = styled.img`
 
 export const DetailsH1 = styled.h1`
     font-size: 2.5rem;
-    color: #C9F2C7;
+    color: #fff;
     margin-bottom: 50px;
     text-align: center;
     justify-content: center;

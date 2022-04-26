@@ -37,7 +37,7 @@ const Navbar = ({toggle}) => {
       <Nav scrollNav={scrollNav}>
         <NavbarContainer>
             <NavLogo to='/' onClick = {toggleHome} scrollNav={scrollNav}>Landform Granite</NavLogo>
-            <MobileIcon onClick = {toggle}>
+            <MobileIcon onClick = {toggle} scrollNav={scrollNav}>
                 <FaBars />
             </MobileIcon>
             <NavMenu>

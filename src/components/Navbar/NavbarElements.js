@@ -51,7 +51,7 @@ export const NavLogo = styled(LinkRouter)`
 export const MobileIcon = styled.div`
 
     display: none;
-    color: #38b000;
+    color: ${({ scrollNav }) => (scrollNav ? '#388E3C' : '#fff')};
     @media screen and (max-width: 768px) {
         display: block;
         position: absolute;

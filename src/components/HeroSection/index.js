@@ -1,10 +1,8 @@
 import React, {useState} from 'react';
-import Video from '../../videos/video.mp4';
 import { Button } from '../ButtonElements'
 import {
     HeroContainer,
     HeroBg,
-    VideoBg,
     HeroContent,
     HeroH1,
     HeroP,
@@ -22,7 +20,6 @@ const HeroLanding = () => {
     return (
         <HeroContainer>
             <HeroBg>
-                <VideoBg autoPlay loop muted src={Video} type='video/mp4' />
             </HeroBg>
             <HeroContent>
                 <HeroH1>Ireland's premium suppliers of Wicklow White Granite.</HeroH1>

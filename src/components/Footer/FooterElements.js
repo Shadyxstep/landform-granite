@@ -7,67 +7,13 @@ export const FooterContainer = styled.footer`
 `
 
 export const FooterWrap = styled.div`
-    padding: 48px 24px;
+    padding: 40px 20px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     max-width: 1100px;
     margin: 0 auto;
-`
-
-export const FooterLinksContainer = styled.div`
-    display: flex;
-    justify-content: center;
-
-
-    @media screen and (max-width: 820px) {
-        padding-top: 32px
-    }
-`
-
-export const FooterLinksWrapper = styled.div`
-    display: flex;
-
-    @media screen and (max-width: 820px) {
-        flex-direction: column;
-    }
-`
-
-export const FooterLinksItems = styled.div`
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin: 16px;
-    text-align: center;
-    width: 160px;
-    box-sizing: border-box;
-    color: #fff;
-    cursor: pointer;
-
-    @media screen and (max-width: 420px) {
-        margin: 0;
-        padding: 25px;
-        width: 100%;
-    }
-`
-
-export const FooterLinkTitle = styled.h1`
-    font-size: 18px;
-    margin-bottom: 16px;
-    color: #fff;
-`
-
-export const FooterLink = styled.div`
-    color: #fff;
-    text-decoration: none;
-    margin-bottom: 0.5rem;
-    font-size: 14px;
-
-    &:hover {
-        color: #388E3C;
-        transition: 0.3 ease-in
-    }
 `
 
 export const SocialMedia = styled.section`
@@ -101,7 +47,7 @@ export const SocialLogo = styled(Link)`
     justify-self: start;
     cursor: pointer;
     text-decoration: none;
-    font-size: 1rem;
+    font-size: 1.5rem;
     display: flex;
     align-items: center;
     margin-bottom: 16px;
@@ -122,7 +68,7 @@ export const ContactWrap = styled.small`
     align-items: center;
     margin-bottom: 16px;
     text-align: center;
-    font-size: 12px;
+    font-size: 0.9rem;
 
     &:hover {
         color: #388E3C;
@@ -138,16 +84,23 @@ export const WebsiteRights = styled.small`
 `
 
 export const SocialIcons = styled.div`
-    display: flex;
-    justify-content: space-between;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 40px;
+    justify-content: center;
     align-items: center;
     width: 75px;
     color: #388E3C;
+
+    @media screen and (max-width: 414px){
+        grid-gap: 20px;
+    }
 `
 
 export const SocialIconLink = styled.a`
     color: #fff;
     font-size: 28px;
+    justify-content: space-between;
 
     &:hover {
         color: #388E3C;

@@ -2,11 +2,6 @@ import React from 'react'
 import {
     FooterContainer,
     FooterWrap,
-    FooterLinksContainer,
-    FooterLinksWrapper,
-    FooterLinksItems,
-    FooterLinkTitle,
-    FooterLink,
     SocialMedia,
     SocialMediaWrap,
     SocialLogo,
@@ -16,35 +11,13 @@ import {
     ContactWrap,
     SocialMediaWrapTwo
     } from './FooterElements'
-import { FaFacebook, FaInstagram } from 'react-icons/fa'
+import { FaFacebook, FaInstagram, FaGoogle } from 'react-icons/fa'
 
 
 const Footer = () => {
     return (
         <FooterContainer>
             <FooterWrap>
-                <FooterLinksContainer>
-                    <FooterLinksWrapper>
-                        <FooterLinksItems>
-                            <FooterLinkTitle>Info</FooterLinkTitle>
-                                <FooterLink to="/">About Us</FooterLink>
-                        </FooterLinksItems>
-                        <FooterLinksItems>
-                            <FooterLinkTitle>Product</FooterLinkTitle>
-                                <FooterLink to="/">Our Granite</FooterLink>
-                        </FooterLinksItems>
-                    </FooterLinksWrapper>
-                    <FooterLinksWrapper>
-                        <FooterLinksItems>
-                            <FooterLinkTitle>Photos</FooterLinkTitle>
-                                <FooterLink to="/">Gallery</FooterLink>
-                        </FooterLinksItems>
-                        <FooterLinksItems>
-                            <FooterLinkTitle>Contact</FooterLinkTitle>
-                                <FooterLink to="/">Get in touch</FooterLink>
-                        </FooterLinksItems>
-                    </FooterLinksWrapper>
-                </FooterLinksContainer>
                 <SocialMedia>
                     <SocialMediaWrap>
                         <SocialLogo to='/'>
@@ -68,6 +41,9 @@ const Footer = () => {
                             </SocialIconLink>
                             <SocialIconLink href='https://www.instagram.com/landform_granite/' target="_blank" aria-label="Instagram">
                                 <FaInstagram />
+                            </SocialIconLink>
+                            <SocialIconLink href='https://www.instagram.com/landform_granite/' target="_blank" aria-label="Instagram">
+                                <FaGoogle />
                             </SocialIconLink>
                         </SocialIcons>
                     </SocialMediaWrapTwo>

@@ -5,39 +5,39 @@ function Gallery() {
  const data = [
     {
       image: "https://i.imgur.com/qCxVMOV.jpg",
-      caption: "Our Granite used in Walls"
+      caption: ""
     },
     {
       image: "https://i.imgur.com/lQEGgJH.jpg",
-      caption: "Quarry Operations"
+      caption: ""
     },
     {
       image: "https://i.imgur.com/6mSG4c9.jpg",
-      caption: "Small Boulders"
+      caption: ""
     },
     {
       image: "https://i.imgur.com/HwMt0sV.jpg",
-      caption: "Granite Close Up"
+      caption: ""
     },
     {
       image: "https://i.imgur.com/rOV883Z.jpg",
-      caption: "Owner"
+      caption: ""
     },
     {
       image: "https://i.imgur.com/2jCeGNW.jpg",
-      caption: "Quarry Operations"
+      caption: ""
     },
     {
       image: "https://i.imgur.com/tvIz0rp.jpg",
-      caption: "Loading an Order"
+      caption: ""
     },
     {
       image: "https://i.imgur.com/THPwxz8.jpg",
-      caption: "All hands on deck"
+      caption: ""
     },
     {
       image: "https://i.imgur.com/4kHFnOf.jpg",
-      caption: "Summer in the Quarry"
+      caption: ""
     }
   ];
 

@@ -13,8 +13,8 @@ const Details = () => {
 
                 <Fade>
                 <DetailsCard>
-                            <DetailsIcon src={'https://i.imgur.com/dTtZ7zi.png'}/>
-                            <DetailsH2>Building</DetailsH2>
+                    <DetailsIcon src={'https://i.imgur.com/dTtZ7zi.png'}/>
+                    <DetailsH2>Building</DetailsH2>
                 </DetailsCard>
                 </Fade>
 

@@ -1,6 +1,8 @@
-# Landform Granite - A business that supplies granite rock to Ireland & the UK
+# Landform Granite - An Irish based business that supplies granite rock to Ireland & the UK
 
-My first static website that allows users to email the business owners HeroTofu.
+A React website for my first business client.
+A responsive single page application that contains an about section, responsive image gallery and a contact form that redirects messages straight to the business owners inbox.
+Hosted on Hostinger.
 
-This single page mock website can be viewed [here](https://shadyxstep.github.io/landform-granite/).
+This website can be viewed on GH pages [here](http://landformgranite.com).
 

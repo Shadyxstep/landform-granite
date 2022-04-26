@@ -28,13 +28,13 @@ export const HeroContainer = styled.div`
 export const HeroBg = styled.div`
     background-image: 
     linear-gradient(
-      rgba(0, 0, 0, 0.1),
-      rgba(0, 0, 0, 0.1)
-    ), url('https://i.imgur.com/THPwxz8.jpg');
-    -o-object-fit: cover;
-    object-fit: cover;
+      rgba(0, 0, 0, 0.15),
+      rgba(0, 0, 0, 0.15)
+    ), url('https://i.imgur.com/7c31sCB.jpg');
+    -o-object-fit: fill;
+    object-fit: fill;
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: fill;
     position: absolute;
     top: 0;
     right: 0;

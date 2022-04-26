@@ -1,9 +1,10 @@
 import React from 'react'
-import "../Details/styles.css"
+import "../Details/style.css"
 import { DetailsContainer, DetailsH1, DetailsWrapper, DetailsCard, DetailsIcon, DetailsH2} from './DetailElements'
 import Fade from 'react-reveal/Fade';
 
 const Details = () => {
+    
 
     return (
         <DetailsContainer id="details" className="details">
@@ -12,8 +13,8 @@ const Details = () => {
 
                 <Fade>
                 <DetailsCard>
-                        <DetailsIcon src={'https://i.imgur.com/dTtZ7zi.png'}/>
-                        <DetailsH2>Building</DetailsH2>
+                            <DetailsIcon src={'https://i.imgur.com/dTtZ7zi.png'}/>
+                            <DetailsH2>Building</DetailsH2>
                 </DetailsCard>
                 </Fade>
 
